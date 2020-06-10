@@ -1,0 +1,98 @@
+html {
+	font-family: 'Roboto Mono', serif;
+	font-size: 10px;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+nav {
+	padding: 1.5rem 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a {
+	width: 9rem;
+	font-size: 1.3rem;
+	padding: 1rem 2.5rem;
+	text-decoration: none;
+	text-align: center;
+	word-wrap: normal;
+	color: white;
+	border-radius: 1.5rem;
+}
+
+nav a.plan-button {
+	background-color: #FF764E;
+}
+nav a.learn-button {
+	background-color: #5ED3EB;
+}
+nav a.involved-button {
+	background-color: #FFCD69;
+}
+
+section#banner {
+	font-family: 'Chelsea Market', serif;
+	margin: 2rem 10rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+section#banner img {
+	height: 100%;
+	width: 25%;
+	border-radius: 100%;
+}
+
+section#banner div.info {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section#banner div.info h1 {
+	font-size: 4.8rem;
+}
+
+section#banner div.info p.always-open {
+	width: 40%;
+	text-align: center;
+}
+
+section#learn {
+	width: 100%;
+	margin: 0 5rem;
+	padding: 2rem 2rem;
+	background-color: #DDB9A3;
+	text-align: center;
+}
+
+section#plan {
+	width: 25%;
+	margin: 5rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+section#plan img {
+	width: 50%;
+}
+
+footer {
+	background-color: #F9E7DC;
+	width: 100vw;
+}
+
+footer img {
+	margin: 0;
+	width: 100%;
+}
